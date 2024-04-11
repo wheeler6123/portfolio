@@ -6,6 +6,16 @@
 -->
 <html>
 	<head>
+		<!-- Matomo Tag Manager -->
+		<script>
+			var _mtm = window._mtm = window._mtm || [];
+			_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+			(function() {
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.async=true; g.src='https://matomo-g6ro.onrender.com/js/container_BMAGEN4N.js'; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+		<!-- End Matomo Tag Manager -->
 		<meta name="description" content="Portfolio website for professional software engineer and web developer John Wheeler, skilled in TypeScript, React, Node.js, Next.js, MongoDB, HTML5, CSS3, accessibility, Git, SCRUM, Agile, Express, Mongoose, and more">
 		<title>John Wheeler - Software Engineer</title>
 		<meta charset="utf-8" />
@@ -22,10 +32,10 @@
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">My Tech Stack</a></li>
-						<li><a href="#three">Portfolio</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#about" class="active">About</a></li>
+						<li><a href="#tech-stack">My Tech Stack</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -44,7 +54,7 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="about">
 								<div class="image main" data-position="center">
 									<img src="images/redrocks.webp" alt="" />
 								</div>
@@ -59,7 +69,7 @@
 							</section>
 
 						<!-- Two -->
-							<section id="two">
+							<section id="tech-stack">
 								<div class="container">
 									<h3>Tech Stack Skills</h3>
 									<p>These are just a few of the skills I am proficient in at this time. If I am not already using one or more of the technologies used in your stack, I am a fast learner and my development as a programmer is founded on the fundamental principles of programming, not technology specific. Most recently, my work is comprised primarily of TypeScript, Node.js, React, Next.js, and MongoDB.</p>
@@ -75,16 +85,16 @@
 							</section>
 
 						<!-- Three -->
-							<section id="three">
+							<section id="portfolio">
 								<div class="container">
 									<h3>Check Out My Work</h3>
 									<p>Take a look at a few of my more recently built sites and web applications.</p>
 									<div class="features">
 										<article>
-											<a href="https://geargremlin.onrender.com" class="image"><img src="images/gear-grem-dash-688.webp" alt="the items dashboard on the gear gremlin outdoor adventure app" /></a>
+											<a href="https://geargremlin.onrender.com" class="image"><img src="images/geargrem690.webp" alt="the items dashboard on the gear gremlin outdoor adventure app" /></a>
 											<div class="inner">
 												<h4>Gear Gremlin - Full Stack Application</h4>
-												<p><strong>TypeScript, React, MongoDB, JWT, Vite, Recharts </strong> - Outdoor adventure planner that allows you to create your own custom gear inventory, organized by category and use conditions. To plan a trip, simply select the items you wish to bring and Gear Gremlin packs in real time, tracking the overall weight of your kit as you go. Trips can be saved for later and exported to PDF for sharing or using as an offline checklist. A dashboard layout offers data visualization including charts and tables.
+												<p><strong>TypeScript, React, MongoDB, JWT, OAuth, Vite, Recharts </strong> - Login using your secure encrypted credentials or use your Google account for fast registration and gain access to the powerful elegant dashboard interface driving the user experience. Easily create your own gear inventory where React charts and table components offer a simple yet sophisticated visual overview of your gear chest. When you are ready to plan your next adventure, effortlessly navigate to the Trip Planner where you can select the items from your stash and add them to your pack. If it's a backpacking trip or an expedition into the remote backcountry where every ounce counts, you're in luck! Your pack weight is monitored in real time as you add and remove gear. Once you are finished, save the trip for future use, export the pack list, share it with your companions and of course, use it as a packing checklist to ensure you don't forget any critical gear! Feel free to login using the demo account credentials below to explore a sandbox version of the app with preloaded data.
 												<br />
 												<br />
 												Demo Login: <br />
@@ -93,29 +103,36 @@
 											</div>
 										</article>
 										<article>
-											<a href="http://soblandscapedesign.netlify.app" class="image"><img src="images/sob-landscape-home-688.webp" alt="homepage for SOB Landscape & Design professional landscaping contractor website" /></a>
+											<a href="http://realizedreamstravel.onrender.com" class="image"><img src="images/travel690.webp" alt="professionally built Nextjs website for Realize Dreams Travel Agency" /></a>
 											<div class="inner">
-												<h4>SOB Landscape & Design - Conventional HTML5 Website</h4>
-												<p><strong>HTML5, CSS3, JavaScript </strong>- A custom built website for a landscaping business. Fully responsive, looking great across mobile, tablet, and desktop screens. Highly efficient, optimized for accessiblity, and perfect 100 lighthouse score for SEO.</p>
+												<h4>Travel Agency - Next.js Website</h4>
+												<p><strong>Next.js, TypeScript, React, Tailwind CSS</strong> - Custom website for a travel agency featuring a sleek and dynamic responsive interface, captivating visual elements, a dark-mode light-mode toggle, and perfect 100 Lighthouse scores for Accessibility, Best Practices, and SEO! Harnessing the power of cutting-edge image optimization technology, this stunning design delivers lightning-fast performance and fluid navigation even while hosting high-definition statically rendered images and a smooth bug-free image carousel component featured in the hero section to grab the user's attention immediately. A website delivering as much beauty as the world-class destinations it features!</p>
 											</div>
 										</article>
 										<article>
+											<a href="http://soblandscapedesign.netlify.app" class="image"><img src="images/landscape-690.webp" alt="homepage for SOB Landscape & Design professional landscaping contractor website" /></a>
+											<div class="inner">
+												<h4>Landscape & Design - Conventional HTML5 Website</h4>
+												<p><strong>HTML5, CSS3, JavaScript </strong>- A simple yet sophisticated build for a landscaping contractor, this thoughtfully curated site showcases the timeless utility of HTML, CSS, and JavaScript. Featuring SEO-friendly blog posts to drive customer engagement, a richly detailed company history, and a form element inviting potential clients to reach out, this site cuts through the competition to drive increased lead activity, conversions, and most importantly, revenue! Highly efficient, optimized for accessiblity, and a perfect 100 Lighthouse score for SEO.</p>
+											</div>
+										</article>
+										<!-- <article>
 											<a href="http://mandolinebistro.netlify.app" class="image"><img src="images/mandoline-688.webp" alt="homepage for mandoline bistro & cafe website" /></a>
 											<div class="inner">
 												<h4>Mandoline Bistro & Cafe - Static React Website</h4>
 												<p><strong>TypeScript, React, Vite</strong> - Another custom built website, this one for a restaurant and bakery. Utilizes a responsive scrolling carousel component that adapts for a proper viewing experience on any size device screen.</p>
 											</div>
-										</article>
+										</article> -->
 									</div>
 								</div>
 							</section>
 
 						<!-- Four -->
-							<section id="four">
+							<section id="contact">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Please feel free to contact me via email or LinkedIn to discuss any opportunities</p>
-									<form method="post" name="contact" netlify>
+									<form method="post" action="submit" name="contact" netlify>
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
