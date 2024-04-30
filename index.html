@@ -176,6 +176,16 @@
 
 			</div>
 
+			<div id="modal">
+				<div class="modalContent">
+					<p>Hi! This page is the portfolio website for John Wheeler, a professional software engineer available for hire. If you are looking for the John Wheeler Web Development Agency, please click the link below.</p>
+					<button id="portfolio-button">Continue to John Wheeler's Portfolio</button>
+					<a href="https://johnwheelerdevagency.onrender.com">
+						<button id="agency-button">John Wheeler Dev Agency</button>
+					</a>
+				</div>
+			</div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -184,6 +194,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				window.onload = function() {
+					// Select the modal and the portfolio button
+					var modal = document.getElementById('modal');
+					var portfolioButton = document.getElementById('portfolio-button');
 
+					// Display the modal when the page loads
+					modal.style.display = 'block';
+
+					// Hide the modal when the portfolio button is clicked
+					portfolioButton.onclick = function() {
+						modal.style.display = 'none';
+					}
+				}
+			</script>
 	</body>
 </html>
